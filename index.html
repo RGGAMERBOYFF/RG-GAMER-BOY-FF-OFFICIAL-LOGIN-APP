@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b0d12">
+<title>RG GAMER BOY FF | Official Gaming Hub</title>
+<meta name="description" content="Official RG GAMER BOY FF links and gaming hub.">
+<style>
+:root{--bg:#0b0d12;--panel:#151923;--line:#2b3040;--red:#ff3448;--red2:#b9142a;--text:#f5f6fa;--muted:#9ca3b4;--radius:18px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% -18%,#4b1420 0,transparent 48%),var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;min-height:100vh}a{color:inherit;text-decoration:none}button{font:inherit}
+.wrap{width:min(1040px,100% - 32px);margin:auto}.top{padding:28px 0 20px}.brand{display:flex;align-items:center;justify-content:center;gap:13px;text-align:left}.logo{width:58px;height:58px;flex:0 0 58px;border-radius:16px;object-fit:cover;display:block;box-shadow:0 10px 35px #ff34482b;border:1px solid #ffffff20}.brand h1{font-size:clamp(16px,4vw,29px);line-height:1.15;margin:0;letter-spacing:-.65px;white-space:nowrap}.brand p{margin:5px 0 0;color:#aeb4c3;font-size:11px;letter-spacing:2px}.hero{text-align:center;padding:19px 0 24px}.eyebrow{font-size:10px;font-weight:800;letter-spacing:2px;color:#ff6877;text-transform:uppercase}.hero h2{font-size:clamp(25px,5vw,42px);line-height:1.12;letter-spacing:-1.2px;margin:10px 0}.hero p{max-width:540px;margin:0 auto;color:var(--muted);font-size:14px}
+.section-title{display:flex;align-items:center;gap:10px;margin:4px 0 14px}.section-title .line{height:1px;flex:1;background:var(--line)}.section-title h3{font-size:13px;letter-spacing:1.3px;margin:0;text-transform:uppercase}
+.links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.link-card{display:flex;align-items:center;gap:15px;padding:18px;border-radius:16px;border:1px solid #34303a;background:linear-gradient(135deg,#1b1c27,#12151d);min-height:94px;transition:transform .18s,border-color .18s,box-shadow .18s}.link-card:hover,.link-card:focus-visible{transform:translateY(-2px);border-color:#ff596a;box-shadow:0 12px 30px #0003;outline:none}
+#youtubeLink{--brand:#ff0033}#whatsappLink{--brand:#25d366}#instagramLink{--brand:#e4405f}
+#youtubeLink .link-icon{background:#ff00331a}#whatsappLink .link-icon{background:#25d3661a}#instagramLink .link-icon{background:#e4405f1a}
+#youtubeLink:hover,#youtubeLink:focus-visible{border-color:#ff0033}#whatsappLink:hover,#whatsappLink:focus-visible{border-color:#25d366}#instagramLink:hover,#instagramLink:focus-visible{border-color:#e4405f}.link-card.primary{background:linear-gradient(120deg,#f02d43,#a90f29);border-color:#ff6474;box-shadow:0 12px 30px #ff34481c}.link-icon{width:48px;height:48px;flex:0 0 48px;display:grid;place-items:center;border-radius:14px;background:#ffffff0b;color:#ff7180;font-size:24px}.link-icon img{width:29px;height:29px;object-fit:contain;display:block}.primary .link-icon{background:#ffffff20;color:#fff}.primary .link-icon img{filter:brightness(0) invert(1)}.link-copy{min-width:0;flex:1}.link-copy strong{display:block;font-size:14px;line-height:1.3}.link-copy span{display:block;color:#aeb4c3;font-size:11px;margin-top:5px}.primary .link-copy span{color:#ffe0e4}.arrow{font-size:22px;color:#9da3b3}.primary .arrow{color:white}
+.metric{border:1px solid var(--line);border-radius:16px;padding:18px;background:linear-gradient(145deg,#171b25,#11141b);min-width:0}.metric-top{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12px}.metric-icon{width:31px;height:31px;border-radius:10px;background:#ff344817;color:#ff6877;display:grid;place-items:center}.metric strong{font-size:clamp(25px,4vw,32px);display:block;margin:14px 0 2px;letter-spacing:-.8px}.metric small{font-size:10px;color:#ff9aa4}
+.activity{margin-top:15px;padding:21px;border:1px solid var(--line);border-radius:18px;background:var(--panel)}.activity-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:16px}.activity-head h3{font-size:16px;margin:0}.activity-head p{color:var(--muted);font-size:11px;margin:4px 0 0}.demo-tag{border:1px solid #71313b;color:#ff9ba5;background:#35151c;border-radius:99px;padding:5px 9px;font-size:10px;white-space:nowrap}.chart{height:160px;display:flex;align-items:end;gap:clamp(8px,2.4vw,22px);padding:13px 3px 0;border-bottom:1px solid #333744;background:repeating-linear-gradient(to bottom,transparent 0,transparent 38px,#ffffff08 39px,#ffffff08 40px)}.bar-wrap{flex:1;height:100%;display:flex;flex-direction:column;justify-content:end;align-items:center;gap:7px;min-width:0}.bar{width:min(100%,30px);min-height:4px;background:linear-gradient(180deg,#ff6877,#b9142a);border-radius:7px 7px 2px 2px}.day{font-size:10px;color:var(--muted)}.legend{display:flex;justify-content:space-between;gap:10px;margin-top:12px;color:var(--muted);font-size:10px}
+.footer{padding:28px 0 24px;text-align:center;color:#71798b;font-size:11px}.footer strong{color:#c2c6d0}.setup-note{margin:16px 0 0;border:1px solid #66303a;background:#24151a;border-radius:12px;padding:12px 14px;color:#f2cbd0;font-size:11px}.setup-note b{color:#fff}
+
+/* Google reCAPTCHA verification dialog */
+.recaptcha-backdrop{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:18px;background:#05060bdc;backdrop-filter:blur(7px)}
+.recaptcha-backdrop.open{display:flex}.recaptcha-dialog{position:relative;width:min(100%,440px);padding:24px 18px 20px;border:1px solid #34394a;border-radius:18px;background:#151923;box-shadow:0 24px 80px #0009;text-align:center}.recaptcha-dialog h3{margin:0 36px 8px;font-size:17px}.recaptcha-dialog p{margin:0 0 18px;color:#9ca3b4;font-size:12px}.recaptcha-close{position:absolute;top:10px;right:10px;width:34px;height:34px;border:1px solid #3a4050;border-radius:10px;background:#202532;color:#fff;font-size:23px;line-height:1;cursor:pointer}.recaptcha-widget{display:flex;justify-content:center;min-height:66px}.recaptcha-status{margin-top:12px;min-height:18px;color:#9ca3b4;font-size:12px}
+@media(max-width:620px){.wrap{width:min(100% - 22px,520px)}.top{padding:19px 0 12px}.logo{width:45px;height:45px;flex-basis:45px;border-radius:13px}.brand h1{font-size:clamp(15px,4.5vw,21px)}.brand p{font-size:9px;letter-spacing:1.5px}.hero{padding:20px 0 21px}.hero h2{font-size:28px}.hero p{font-size:12px}.links{grid-template-columns:1fr;gap:10px}.link-card{padding:14px;min-height:82px}.link-icon{width:44px;height:44px;flex-basis:44px}.metric{padding:12px;border-radius:13px}.metric-top{font-size:10px;display:block}.metric-icon{margin-bottom:7px}.metric strong{font-size:24px;margin-top:10px}.metric small{font-size:9px}.activity{padding:15px;margin-top:11px}.chart{height:135px}.activity-head h3{font-size:14px}.demo-tag{font-size:9px;padding:4px 7px}}
+@media(max-width:360px){.brand{gap:9px}.brand h1{font-size:18px}.link-copy strong{font-size:12px}.link-copy span{font-size:10px}}
+
+/* WINTER FESTIVAL / FROSTED CRACKED-ICE DESIGN */
+:root{--bg:#07121c;--panel:#102131;--line:#284b63;--red:#9ceaff;--red2:#5aa8d2;--text:#effaff;--muted:#aac5d5;--radius:18px}
+body{background:radial-gradient(ellipse at 50% -18%,#17415b 0,transparent 52%),linear-gradient(180deg,#081725,#050c14 82%);color:var(--text)}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(circle at 10% 15%,#b7eaff10,transparent 22%),radial-gradient(circle at 90% 40%,#9ceaff0b,transparent 25%)}
+.wrap,.footer{position:relative;z-index:1}
+/* Keep verification overlay on its original fixed full-screen layer */
+.recaptcha-backdrop{position:fixed!important;inset:0;z-index:99999;display:none;align-items:center;justify-content:center;padding:18px;background:#05060bdc;backdrop-filter:blur(7px)}
+.recaptcha-backdrop.open{display:flex!important}
+.recaptcha-dialog{position:relative;z-index:100000;width:min(100%,440px);max-height:calc(100vh - 36px);overflow:auto}
+.top{padding-top:30px}.brand{gap:16px}
+.logo-frost-frame{position:relative;width:76px;height:76px;flex:0 0 76px;padding:5px;border-radius:22px;background:linear-gradient(145deg,#f5fdff,#7cc8ec 20%,#c8f2ff 48%,#347ca8 72%,#e9fbff);box-shadow:0 0 0 2px #d9f7ff55,0 10px 32px #50b9e833,inset 0 0 12px #fff9;clip-path:polygon(0 10%,8% 0,23% 4%,34% 0,49% 6%,64% 0,76% 7%,92% 0,100% 15%,95% 29%,100% 43%,94% 58%,100% 75%,90% 84%,97% 100%,77% 95%,64% 100%,48% 94%,33% 100%,19% 93%,5% 100%,0 84%,6% 68%,0 52%,5% 35%,0 20%)}
+.logo-frost-frame:before,.logo-frost-frame:after{content:"";position:absolute;z-index:2;pointer-events:none;background:linear-gradient(135deg,#fff,#9de5ff,#dff8ff);filter:drop-shadow(0 0 4px #9be5ff88)}
+.logo-frost-frame:before{width:19px;height:13px;top:-3px;left:14px;clip-path:polygon(0 0,100% 10%,65% 100%,40% 48%)}
+.logo-frost-frame:after{width:17px;height:18px;right:-2px;bottom:12px;clip-path:polygon(0 0,100% 35%,65% 100%,45% 50%)}
+.logo{width:100%;height:100%;border:2px solid #bcefff;box-shadow:inset 0 0 12px #fff3;border-radius:17px;object-fit:cover}
+.brand h1{color:#f3fbff;text-shadow:0 2px 15px #8bdcff33}.brand p,.hero p{color:#afcbdc}
+.eyebrow{color:#a9eaff}.hero h2{color:#f1fbff;text-shadow:0 3px 22px #77cfff35}
+.section-title .line{background:linear-gradient(90deg,transparent,#7fc7e8,transparent)}
+.link-card,.metric,.activity{border-color:#5d8da8;background:linear-gradient(145deg,#183349,#0d1b29);box-shadow:inset 0 1px 0 #e9fbff20,0 9px 24px #0003;position:relative;overflow:hidden}
+.link-card{border-radius:15px;clip-path:polygon(0 5%,4% 0,15% 2%,26% 0,40% 3%,55% 0,70% 3%,86% 0,100% 7%,98% 25%,100% 42%,97% 61%,100% 79%,96% 100%,82% 97%,65% 100%,50% 96%,34% 100%,18% 97%,4% 100%,0 84%,3% 66%,0 47%,3% 28%)}
+.link-card:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(125deg,#eafaff24,transparent 27%,#8bdcff09 58%,#fff1 75%);opacity:.7}
+.link-card:after{content:"";position:absolute;left:18%;top:0;width:34px;height:22px;background:linear-gradient(160deg,#e8fbff,#9bdcf5);clip-path:polygon(0 0,100% 8%,64% 40%,81% 100%,34% 62%);opacity:.55;pointer-events:none}
+.link-card:hover,.link-card:focus-visible{transform:translateY(-3px);border-color:#c3f1ff;box-shadow:0 12px 30px #4bb6e526,inset 0 1px 0 #fff6;outline:none}
+.link-card.primary{background:linear-gradient(120deg,#246b91,#123a59);border-color:#b8eeff;box-shadow:0 12px 28px #52b7e51f,inset 0 1px 0 #fff6}
+.link-card.primary .link-copy span{color:#d9f5ff}.link-icon{background:#9deaff17;color:#bcefff}.primary .link-icon{background:#ffffff24;color:#fff}
+#youtubeLink:hover,#youtubeLink:focus-visible{border-color:#ff6076}#whatsappLink:hover,#whatsappLink:focus-visible{border-color:#66e6a0}#instagramLink:hover,#instagramLink:focus-visible{border-color:#ffc2d0}
+.metric-icon{background:#9ceaff17;color:#bcefff}.metric small{color:#b8e9ff}.demo-tag{border-color:#5d91ad;color:#d6f4ff;background:#12334a}
+.chart{background:repeating-linear-gradient(to bottom,transparent 0,transparent 38px,#d9f7ff0a 39px,#d9f7ff0a 40px);border-color:#547d96}.bar{background:linear-gradient(180deg,#d8f8ff,#4b9ac7)}
+.setup-note{border-color:#4b7892;background:#102a3b;color:#d7f2ff}.setup-note b{color:#fff}
+.recaptcha-dialog{border-color:#7aa9c5;background:#102132}.recaptcha-close{border-color:#5d829b;background:#1c3448}
+/* animated snowfall overlay */
+#winter-snow{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+#winter-snow i{position:absolute;top:-12px;width:4px;height:4px;border-radius:50%;background:#e8faff;box-shadow:0 0 7px #c6f0ff;opacity:.65;animation:winterFall linear infinite}
+@keyframes winterFall{to{transform:translate3d(var(--drift),110vh,0) rotate(360deg)}}
+@media(max-width:620px){.logo-frost-frame{width:61px;height:61px;flex-basis:61px;padding:4px;border-radius:18px}.logo{border-radius:14px}.brand{gap:12px}}
+
+
+/* Minimal winter music control */
+#winterMusicButton{position:fixed;right:16px;bottom:16px;z-index:20;display:flex;align-items:center;gap:8px;
+padding:11px 15px;border:1px solid #b9edff;border-radius:12px;color:#effaff;
+background:linear-gradient(145deg,#214f70,#102b43);box-shadow:0 5px 20px #5ac7f533,inset 0 1px 0 #ffffff55;
+font:600 12px/1.2 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;cursor:pointer;
+clip-path:polygon(0 6%,6% 0,19% 3%,31% 0,46% 3%,61% 0,78% 3%,93% 0,100% 8%,97% 25%,100% 45%,97% 65%,100% 82%,95% 100%,80% 97%,62% 100%,47% 96%,30% 100%,17% 97%,4% 100%,0 83%,3% 65%,0 47%,3% 28%)}
+#winterMusicButton:hover{filter:brightness(1.12);transform:translateY(-1px)}
+#winterMusicButton:focus-visible{outline:2px solid #e4faff;outline-offset:3px}
+@media(max-width:360px){#winterMusicButton{right:10px;bottom:10px;padding:10px 12px}}
+
+</style>
+</head>
+<body>
+<div id="winter-snow" aria-hidden="true"></div>
+<script>document.addEventListener("DOMContentLoaded",()=>{const box=document.getElementById("winter-snow");if(!box)return;for(let i=0;i<48;i++){const flake=document.createElement("i");flake.style.left=Math.random()*100+"%";flake.style.setProperty("--drift",(Math.random()*140-70)+"px");flake.style.animationDuration=(8+Math.random()*13)+"s";flake.style.animationDelay=(-Math.random()*18)+"s";flake.style.opacity=(.25+Math.random()*.65).toFixed(2);flake.style.width=flake.style.height=(2+Math.random()*4)+"px";box.appendChild(flake);}});</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onRecaptchaLoaded&render=explicit" async defer></script>
+<header class="top wrap">
+  <div class="brand"><div class="logo-frost-frame"><img class="logo" src="https://i.supaimg.com/ae2eabab-8f08-412c-8c6c-301dfeea666d/c7901563-03b2-4eb2-8807-0b99e1ff7cb3.png" alt="RG GAMER BOY FF logo"></div><div><h1>RG GAMER BOY FF</h1><p>OFFICIAL GAMING HUB</p></div></div>
+</header>
+<main class="wrap">
+  <section class="hero"><div class="eyebrow">Welcome to the official hub</div><h2>APK AND LINK</h2><p>Get the app and follow our official channels to stay connected with RG GAMER BOY FF.</p></section>
+  <section aria-labelledby="link-heading">
+    <div class="section-title"><span class="line"></span><h3 id="link-heading">Official Links</h3><span class="line"></span></div>
+    <div class="links">
+      <a class="link-card primary" id="downloadLink" href="https://rggamerboyff01.github.io/RG-GAMER-BOY-FF-/" target="_blank" rel="noopener noreferrer"><div class="link-icon" aria-hidden="true">⬇</div><div class="link-copy"><strong>DOWNLOAD APK</strong><span>Download the application</span></div><span class="arrow">›</span></a>
+      <a class="link-card" id="youtubeLink" href="https://www.youtube.com/@RG_GAMER_BOY_FF" target="_blank" rel="noopener noreferrer"><div class="link-icon"><img src="https://cdn.simpleicons.org/youtube/FF0033" alt="YouTube official logo"></div><div class="link-copy"><strong>SUBSCRIBE YOUTUBE CHANNEL</strong><span>Watch videos and subscribe</span></div><span class="arrow">›</span></a>
+      <a class="link-card" id="whatsappLink" href="https://whatsapp.com/channel/0029VbD9yigGJP8Hkf8xWw3I" target="_blank" rel="noopener noreferrer"><div class="link-icon"><img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="WhatsApp official logo"></div><div class="link-copy"><strong>FOLLOW WHATSAPP CHANNEL</strong><span>Join the official channel</span></div><span class="arrow">›</span></a>
+      <a class="link-card" id="instagramLink" href="https://www.instagram.com/rg_gamer_boy_ff?dlrf=MWYwem0wZTA3Z2trZg==" target="_blank" rel="noopener noreferrer"><div class="link-icon"><img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram official logo"></div><div class="link-copy"><strong>FOLLOW INSTAGRAM</strong><span>Follow for updates</span></div><span class="arrow">›</span></a>
+    </div>
+  </section>
+  <section class="activity" aria-labelledby="info-heading" style="margin-top:29px">
+    <div class="activity-head"><div><h3 id="info-heading">Official Website Information</h3><p>Information about the RG GAMER BOY FF hub</p></div><span class="demo-tag">OFFICIAL</span></div>
+    <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px">
+      <div class="metric"><div class="metric-top"><span class="metric-icon">◎</span>Website</div><strong style="font-size:18px;letter-spacing:0">RG GAMER BOY FF</strong><small>Official Gaming Hub</small></div>
+      <div class="metric"><div class="metric-top"><span class="metric-icon">▣</span>Website Version</div><strong style="font-size:24px">v 2.0.12</strong><small>Current display version</small></div>
+      <div class="metric" style="grid-column:1/-1"><div class="metric-top"><span class="metric-icon">↗</span>Official Links</div><p style="margin:10px 0 0;color:var(--muted);font-size:12px">Use the buttons above to visit the official download page and social channels.</p></div>
+    </div>
+  </section>
+</main>
+
+<div class="recaptcha-backdrop" id="recaptchaBackdrop" role="dialog" aria-modal="true" aria-labelledby="recaptchaTitle">
+  <div class="recaptcha-dialog">
+    <button class="recaptcha-close" id="recaptchaClose" type="button" aria-label="Close verification">×</button>
+    <h3 id="recaptchaTitle">Security Verification</h3>
+    <p>Complete Google reCAPTCHA verification to continue.</p>
+    <div class="recaptcha-widget" id="recaptchaWidget"></div>
+    <div class="recaptcha-status" id="recaptchaStatus" aria-live="polite"></div>
+  </div>
+</div>
+
+<button id="winterMusicButton" type="button" aria-label="Play winter music">♫ Play Winter Music</button>
+<audio id="winterMusicAudio" preload="none" loop>
+  <source src="clavier-music-snow-waltz-winter-piano-amp-bells-280736.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+(() => {
+  const SITE_KEY = '6LfFUP4tAAAAAAczyGuP6Gwo216rhBExoTb9xZ8C';
+  const backdrop = document.getElementById('recaptchaBackdrop');
+  const widgetBox = document.getElementById('recaptchaWidget');
+  const status = document.getElementById('recaptchaStatus');
+  const closeButton = document.getElementById('recaptchaClose');
+  let pendingLink = '';
+  let widgetId = null;
+  let redirectPending = false;
+  let renderAttempts = 0;
+
+  function closeDialog() {
+    backdrop.classList.remove('open');
+    pendingLink = '';
+    redirectPending = false;
+    if (window.grecaptcha && widgetId !== null) {
+      try { window.grecaptcha.reset(widgetId); } catch (e) {}
+    }
+    widgetId = null;
+    widgetBox.innerHTML = '';
+    status.textContent = '';
+  }
+
+  function renderWidget() {
+    if (!backdrop.classList.contains('open')) return;
+    if (!window.grecaptcha || typeof window.grecaptcha.render !== 'function') {
+      renderAttempts += 1;
+      if (renderAttempts < 40) {
+        status.textContent = 'Loading Google reCAPTCHA…';
+        setTimeout(renderWidget, 250);
+      } else {
+        status.textContent = 'reCAPTCHA could not load. Check your connection and try again.';
+      }
+      return;
+    }
+
+    widgetBox.innerHTML = '';
+    status.textContent = '';
+    try {
+      widgetId = window.grecaptcha.render(widgetBox, {
+        sitekey: SITE_KEY,
+        callback: function(token) {
+          if (!token || !pendingLink || redirectPending) return;
+          redirectPending = true;
+          const destination = pendingLink;
+          status.textContent = '';
+          setTimeout(() => {
+            if (redirectPending && pendingLink === destination) {
+              pendingLink = '';
+              window.location.assign(destination);
+            }
+          }, 1500);
+        },
+        'expired-callback': function() {
+          redirectPending = false;
+          status.textContent = 'Verification expired. Please complete it again.';
+        },
+        'error-callback': function() {
+          redirectPending = false;
+          status.textContent = 'Verification could not load. Please try again.';
+        }
+      });
+    } catch (e) {
+      status.textContent = 'reCAPTCHA could not be displayed. Please try again.';
+    }
+  }
+
+  window.onRecaptchaLoaded = function() {
+    renderAttempts = 0;
+    renderWidget();
+  };
+
+  window.addEventListener('load', () => {
+    document.querySelectorAll('.link-card').forEach(link => {
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        pendingLink = link.href;
+        redirectPending = false;
+        renderAttempts = 0;
+        backdrop.classList.add('open');
+        status.textContent = 'Loading Google reCAPTCHA…';
+        renderWidget();
+      });
+    });
+
+    closeButton.addEventListener('click', closeDialog);
+    backdrop.addEventListener('click', event => {
+      if (event.target === backdrop) closeDialog();
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && backdrop.classList.contains('open')) closeDialog();
+    });
+  });
+})();
+</script>
+
+<script>
+(() => {
+  const music = document.getElementById('winterMusicAudio');
+  const button = document.getElementById('winterMusicButton');
+  if (!music || !button) return;
+  music.volume = 0.24;
+  button.addEventListener('click', async () => {
+    if (music.paused) {
+      try {
+        await music.play();
+        button.textContent = '♫ Pause Winter Music';
+        button.setAttribute('aria-label', 'Pause winter music');
+      } catch (err) {
+        button.textContent = '♫ Tap to Play Music';
+      }
+    } else {
+      music.pause();
+      button.textContent = '♫ Play Winter Music';
+      button.setAttribute('aria-label', 'Play winter music');
+    }
+  });
+  music.addEventListener('ended', () => {
+    button.textContent = '♫ Play Winter Music';
+    button.setAttribute('aria-label', 'Play winter music');
+  });
+})();
+</script>
+
+<footer class="footer wrap"><strong>RG GAMER BOY FF</strong> · Official Gaming Hub</footer>
+</body>
+</html>
